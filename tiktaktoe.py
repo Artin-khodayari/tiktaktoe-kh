@@ -26,7 +26,7 @@ class TicTacToeGUI:
             self.buttons[row][col].config(text=self.current_player)
             if self.check_win(self.current_player):
                 messagebox.showinfo(
-                    "Tic Tac Toe", f"Player {self.current_player} wins!")
+                    "Tic Tac Toe(Artin khodayari)", f"Player {self.current_player} wins!")
                 self.reset_game()
             elif self.is_full():
                 messagebox.showinfo("Tic Tac Tow", "It's a tie!")
